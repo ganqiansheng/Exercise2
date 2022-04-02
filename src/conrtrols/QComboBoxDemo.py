@@ -7,6 +7,7 @@
 import sys,os
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
+from PyQt5.QtGui import *
 
 
 class QComboBoxDemo(QWidget):
@@ -15,16 +16,25 @@ class QComboBoxDemo(QWidget):
         self.initUI()
 
     def initUI(self):
-        self.resize(300, 200)
+        self.resize(300, 50)
         self.setWindowTitle('下拉列表控件演示')
 
         layout = QVBoxLayout()
+        palette=QPalette()
+
 
         self.label=QLabel('请选择编程语言：')
+        self.label.resize(self.label.width(),5)
+        self.label.setAutoFillBackground(True)
+        palette.setColor(QPalette.Window,Qt.lightGray)
+        self.label.setPalette(palette)
         layout.addWidget(self.label)
 
 
         self.cb=QComboBox()
+        self.cb.setAutoFillBackground(True)
+        palette.setColor(QPalette.Window,Qt.magenta)
+        self.cb.setPalette(palette)
         self.cb.addItem('C++')
         self.cb.addItem('VBasic')
         self.cb.addItems(['Delphi','C#','Python','Ruby','JAVA'])
