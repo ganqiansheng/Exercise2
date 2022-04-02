@@ -23,7 +23,7 @@ class QSpinBoxDemo(QWidget):
 
         slider=QSlider(Qt.Horizontal)
         slider.setRange(9,48)
-        slider.setTickPosition(slider.TicksBothSides)
+        slider.setTickPosition(slider.TicksBelow)
         slider.setValue(18)
         layout.addWidget(slider)
         print(str(slider.maximum()))
