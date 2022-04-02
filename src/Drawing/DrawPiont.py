@@ -2,7 +2,7 @@ import math
 import sys, os
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import Qt
-from PyQt5.QtGui import QPainter, QColor, QFont
+from PyQt5.QtGui import QPainter, QColor, QFont,QPen
 import math
 
 
@@ -30,6 +30,19 @@ class DrawPiontDemo(QWidget):
 
         painter.drawText(event.rect(),Qt.AlignBottom,self.text)
 
+        pen=QPen(Qt.magenta,2,Qt.DashLine)
+        painter.setPen(pen)
+        painter.drawLine(50,50,300,400)
+
+        pen.setStyle(Qt.DotLine)
+        pen.setColor(Qt.cyan)
+        painter.setPen(pen)
+        painter.drawLine(30,300,350,50)
+
+        pen=QPen(Qt.magenta,2,Qt.CustomDashLine)
+        pen.setDashPattern([2,6,10,3])
+        painter.setPen(pen)
+        painter.drawLine(50,50,300,50)
 
         painter.end()
 
