@@ -37,7 +37,7 @@ class QlabelBuddy(QDialog):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     main = QlabelBuddy()
-    main.setWindowTitle('QLabel伙伴控件演示')
+    main.setWindowTitle('QRadioButton控件演示')
     main.show()
 
     sys.exit(QApplication.exec_())
