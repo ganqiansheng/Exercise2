@@ -12,7 +12,6 @@ class MyComboBox(QComboBox):
         self.setAcceptDrops(True)
 
     def dragEnterEvent(self, e):
-        print(e)
         if e.mimeData().hasText():
             e.accept()
         else:
