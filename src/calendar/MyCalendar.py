@@ -18,15 +18,16 @@ class MyCalendar(QDialog):
         self.calendar.setMinimumDate(QDate(1990,1,1))
         self.calendar.setMaximumDate(QDate(2050,12,31))
 
+        layout1 = QFormLayout()
+        layout2 = QVBoxLayout()
         self.calendar.setGridVisible(True)
-        self.calendar.move(20,20)
+        # self.calendar.move(200,200)
 
         # palette=QPalette()
         # palette.setColor(QPalette.Window, Qt.gray)
         # palette.setColor(QPalette.window,Qt.lightGray)
 
-        layout1=QFormLayout()
-        layout2=QVBoxLayout()
+
         # self.frame.setAutoFillBackground(True)
         # self.frame.setPalette(palette)
 
@@ -39,6 +40,10 @@ class MyCalendar(QDialog):
         self.btnExit=QPushButton('退出')
         self.btnExit.clicked.connect(self.QuitApp)
         layout2.addWidget(self.btnExit)
+        self.label=QLabel('当前选中的日期')
+        layout2.addWidget(self.label)
+
+        self.calendar.clicked.connect(self.ShowDate)
 
 
         layout1.addRow(self.calendar,layout2)
@@ -58,6 +63,10 @@ class MyCalendar(QDialog):
     def QuitApp(self):
         app=QApplication.instance()
         app.quit()
+
+    def ShowDate(self,date):
+        # self.label.setText(date.toString('yyyy-MM-dd dddd'))
+        self.label.setText(self.calendar.selectedDate().toString('yyyy-MM-dd dddd'))
 
 
 
