@@ -45,6 +45,24 @@ class ToolBar(QMainWindow):
 
         self.toolBar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextUnderIcon)
 
+        self.editToolBar=QToolBar('edit')
+        self.addToolBar(self.editToolBar)
+
+        self.actionCut=QAction(QIcon('./editico/editcut.ico'),'剪切',self)
+        self.editToolBar.addAction(self.actionCut)
+
+        self.actionCopy=QAction(QIcon('./editico/editcopy.ico'),'复制',self)
+        self.editToolBar.addAction(self.actionCopy)
+
+        self.actionPaste=QAction(QIcon('./editico/editpaste.ico'),'粘贴',self)
+        self.actionPaste.setShortcut('ctrl + P')
+        self.editToolBar.addAction(self.actionPaste)
+
+        self.editToolBar.setToolButtonStyle(Qt.ToolButtonStyle.ToolButtonTextBesideIcon)
+
+
+
+
     #     self.btn=QPushButton('test',self)
     #     self.btn.move(150,150)
     #     self.btn.clicked.connect(self.btnClick)
