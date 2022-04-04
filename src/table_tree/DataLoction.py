@@ -35,9 +35,19 @@ class DataLoctionDemo(QWidget):
         if len(items)>0:
             for item in items:
                 item.setBackground(QBrush(QColor(0,255,0)))
-                item.setForeground((QBrush(QColor(255,0,0))))
+                if item.column()==0:
+                    item.setForeground((QBrush(QColor(255,0,0))))
+                elif item.column()==1:
+                    item.setForeground((QBrush(QColor(0,255,0))))
+                elif item.column()==2:
+                    item.setForeground((QBrush(QColor(0,255,255))))
+                else:
+                    item.setForeground((QBrush(QColor(255, 0, 255))))
+                item.setFont(QFont('微软雅黑',20))
                 row=item.row()
                 tableWidget.verticalScrollBar().setSliderPosition(row)
+                print(item.row())
+                print(item.column())
 
 
 
