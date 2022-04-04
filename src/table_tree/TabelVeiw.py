@@ -9,13 +9,17 @@ class TableView(QWidget):
         self.initUI()
 
     def initUI(self):
+        self.setWindowTitle('TableView演示案例')
+        self.resize(600,400)
 
         self.model=QStandardItemModel(4,3)
         self.model.setHorizontalHeaderLabels(['序号','姓名','年龄'])
+        self.model.setVerticalHeaderLabels(['第1行','第2行','第3行','第4行'])
 
         self.tableView=QTableView()
 
         self.tableView.setModel(self.model)
+        self.tableView.clicked.connect(self.tabelViewclicked)
 
         layout=QVBoxLayout()
         layout.addWidget(self.tableView)
@@ -39,6 +43,15 @@ class TableView(QWidget):
         self.model.setItem(1,0,item10)
         self.model.setItem(1,1,item11)
         self.model.setItem(1,2,item12)
+
+        self.tableView.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        self.tableView.setSelectionBehavior(QAbstractItemView.SelectRows)
+
+    def tabelViewclicked(self,index):
+        print(type(index))
+
+        # print(self.tableView.index
+
 
 
 
