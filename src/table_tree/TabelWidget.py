@@ -55,6 +55,10 @@ class TableWidgetDemo(QMainWindow):
         # ResizeToContents = 3
         # Stretch = 1
 
+        self.tableWidget.horizontalHeader().setVisible(True)
+
+        self.tableWidget.setShowGrid(False)
+
 
 
 
