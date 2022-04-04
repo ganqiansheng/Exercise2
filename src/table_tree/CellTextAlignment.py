@@ -17,7 +17,8 @@ class ColumnSortDemo(QWidget):
         self.tableWidget = QTableWidget(self)
         self.tableWidget.resize(550, 750)
         self.tableWidget.setRowCount(4)
-        self.tableWidget.setColumnCount(3)
+        self.tableWidget.setColumnCount(4)
+        self.tableWidget.setIconSize(QSize(50, 50))
         self.tableWidget.setHorizontalHeaderLabels(['姓名', '性别', '体重(kg)'])
         layout.addWidget(self.tableWidget)
 
@@ -39,9 +40,18 @@ class ColumnSortDemo(QWidget):
         newItem = QTableWidgetItem('bob')
         self.tableWidget.setItem(2, 0, newItem)
         newItem = QTableWidgetItem('男')
+        newItem.setFont(QFont('微软雅黑', 50))
         self.tableWidget.setItem(2, 1, newItem)
         newItem = QTableWidgetItem('154')
         self.tableWidget.setItem(2, 2, newItem)
+        self.tableWidget.setRowHeight(3, 100)
+        newItem = QTableWidgetItem(QIcon('./editico/editcopy.ico'), '复制')
+        self.tableWidget.setItem(3, 0, newItem)
+
+        # self.tableWidget.setSpan(0, 0, 3, 1)
+
+        self.tableWidget.setRowHeight(2, 100)
+        self.tableWidget.setColumnWidth(2, 200)
 
         button = QPushButton('排序')
         button.clicked.connect(self.Sort)
@@ -49,7 +59,38 @@ class ColumnSortDemo(QWidget):
 
         self.orderType = Qt.DescendingOrder
 
+        self.tableWidget.setContextMenuPolicy(Qt.CustomContextMenu)
+        self.tableWidget.customContextMenuRequested.connect(self.generateMemu)
+
         self.setLayout(layout)
+
+    def generateMemu(self, pos):
+        print(pos)
+        for i in self.tableWidget.selectionModel().selection().indexes():
+            rowNum = i.row()
+        if rowNum < 4:
+            menu = QMenu()
+            item1 = menu.addAction('菜单项1')
+            item2 = menu.addAction('菜单项2')
+            item3 = menu.addAction('菜单项3')
+            screenPos=self.tableWidget.mapToGlobal(pos)
+            action=menu.exec_(screenPos)
+
+            if action==item1:
+                print('选择了第1个菜单项',self.tableWidget.item(rowNum,0).text(),
+                                       self.tableWidget.item(rowNum, 1).text(),
+                                        self.tableWidget.item(rowNum, 2).text())
+            elif action==item2:
+                print('选择了第2个菜单项',self.tableWidget.item(rowNum,0).text(),
+                                       self.tableWidget.item(rowNum, 1).text(),
+                                        self.tableWidget.item(rowNum, 2).text())
+            elif action==item3:
+                print('选择了第3个菜单项',self.tableWidget.item(rowNum,0).text(),
+                                       self.tableWidget.item(rowNum, 1).text(),
+                                        self.tableWidget.item(rowNum, 2).text())
+            else:
+                return
+
 
     def Sort(self):
         if self.orderType == Qt.DescendingOrder:
