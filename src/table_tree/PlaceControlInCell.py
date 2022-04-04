@@ -34,6 +34,9 @@ class PlaceControlInCellDemo(QMainWindow):
 
         tabelWidget.setCellWidget(2,0,modifyButton)
 
+        tabelWidget.setEditTriggers(QAbstractItemView.NoEditTriggers)
+        tabelWidget.setSelectionBehavior(QAbstractItemView.SelectRows)
+
 
 
 
