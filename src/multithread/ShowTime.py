@@ -12,7 +12,7 @@ class ShowTime(QWidget):
         self.setWindowTitle('时间控件演示案例')
         self.resize(300,200)
 
-        layout=QGridLayout()
+        self.layout=QGridLayout()
         self.label=QLabel('显示当前时间')
         self.buttonStart=QPushButton('开始')
         self.buttonEnd=QPushButton('结束')
@@ -21,35 +21,44 @@ class ShowTime(QWidget):
         self.buttonStart.clicked.connect(self.startTimer)
         self.buttonEnd.clicked.connect(self.endTimer)
 
-        layout.addWidget(self.label,0,0,2,1)
-        layout.addWidget(self.buttonStart,1,0)
-        layout.addWidget(self.buttonEnd,1,1)
+        self.layout.addWidget(self.label,0,0,1,2)
+        self.layout.addWidget(self.buttonStart,1,0)
+        self.layout.addWidget(self.buttonEnd,1,1)
 
-        self.setLayout(layout)
+        self.setLayout(self.layout)
 
         self.timer=QTimer()
         self.timer.timeout.connect(self.showTime)
 
-    def showtime(self):
+    def showTime(self):
         time=QDateTime.currentDateTime()
-        timeDisplay=time.toString('yyyy-mm-dd hh:mm:ss')
+        timeDisplay=time.toString('yyyy-mm-dd hh:mm:ss dddd')
         self.label.setText('当前时间：'+timeDisplay)
 
     def startTimer(self):
         self.timer.start(1000)
         self.buttonStart.setEnabled(False)
-        self.buttonEnd.setEnabled(true)
+        self.buttonEnd.setEnabled(True)
+
+        self.label2=QLabel('如不停止计时器，程序在5秒后退出')
+        self.layout.addWidget(self.label2,2,0,1,2)
+
+        self.timer.singleShot(5000,self.quitApp)
 
     def endTimer(self):
         self.timer.stop()
         self.buttonStart.setEnabled(True)
         self.buttonEnd.setEnabled(False)
 
+    def quitApp(self):
+        app=QApplication.instance()
+        app.quit()
+
 
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
-    main = ScrollBar()
+    main = ShowTime()
     main.show()
 
     sys.exit(app.exec_())
