@@ -11,13 +11,14 @@ class QstackedWidgetDemo(QTabWidget):
 
     def initUI(self):
         self.setWindowTitle('堆栈窗口控件演示案例')
-        self.resize(400,80)
+        self.resize(200,80)
 
 
         self.list=QListWidget()
         self.list.insertItem(0,'联系方式')
         self.list.insertItem(1,'个人信息')
         self.list.insertItem(2,'教育程序')
+        self.list.setFont(QFont('微软雅黑',12))
 
         self.stack1=QWidget()
         self.stack2=QWidget()
