@@ -11,7 +11,7 @@ class TabWidgetDemo(QTabWidget):
 
     def initUI(self):
         self.setWindowTitle('选项卡演示案例')
-        self.resize(150,100)
+        self.resize(600,400)
 
         self.tab1=QWidget()
         self.tab2=QWidget()
@@ -24,6 +24,7 @@ class TabWidgetDemo(QTabWidget):
         self.tab1UI()
         self.tab2UI()
         self.tab3UI()
+
 
     def tab1UI(self):
         layout=QFormLayout()
