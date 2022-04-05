@@ -49,10 +49,10 @@ class BasicTreeWidgetDemo(QMainWindow):
 
         self.setCentralWidget(self.tree)
 
-    # def onTreeClicked(self,index):
-    #     item=self.tree.currentItem()
-    #     print(index.row())
-    #     print('key=%s,value=%s'%(item.text(0),item.text(1)))
+    def onTreeClicked(self,index):
+        item=self.tree.currentItem()
+        print(index.row())
+        print('key=%s,value=%s'%(item.text(0),item.text(1)))
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
