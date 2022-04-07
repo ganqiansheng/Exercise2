@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>A Dmeo Page</title>
+    <script src="./qwebchannel.js"></script>
+    <script language="javascript">
+        function callback(result){
+            alert("计算结果:" + result + "")
+        }
+        //        channel.registerObject("obj",factorial)
+        document.addEventListener("DOMContentLoaded",function(){
+            new QWebChannel( qt.webChannelTransport,function (channel){
+                window.obj=channel.objects.obj;
+            });
+        });
+
+        function onFactorial(){
+//            alert(typeof qt.webChannelTransport)
+//            alert(qt.webChannelTransport)
+//            alert('调用函数onFactorial')
+            if (window.obj){
+//                alert('传递对象成功')
+                var n  = parseInt(document.getElementById("n").value);//               alert('n='+n)
+                window.obj.factorial(n,callback)
+            }
+            else {
+                alert('没有从python传入对象')
+            }
+        }
+
+
+
+    </script>
+</head>
+<body>
+    <form>
+        <label>请输入N：</label>
+        <input type="text" id="n"></input>
+        <br />
+        <br/>
+        <input type="button" value="计算阶乘" onclick="onFactorial()">
+    </form>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>测试页面</title>
+    <script>
+        function fullname(value){
+            /*alert("<" + value + ">")*/
+            var firstName=document.getElementById('FirstName').value;
+            var lastName=document.getElementById('LastName').value;
+            var fullName=firstName + ' ' + lastName;
+            /*alert(fullName)*/
+            document.getElementById('fullName').value=fullName;
+            document.getElementById('submit-btn').style.display="block";
+            full=fullName+" Extension"
+            return fullName,full,fullName,full,fullName,full;
+
+        }
+    </script>
+</head>
+<body>
+    <form >
+        <label>First Name:</label>
+        <input type="'text" name="First Name" id="FirstName"></input>
+        <br/>
+        <label>Last Name:</label>
+        <input type="'text" name="Last Name" id="LastName"></input>
+        <br/>
+        <label>full Name:</label>
+        <input type="'text" name="fullName" id="fullName"></input>
+        <br/>
+        <input style="display:none;"  type="submit" id="submit-btn" />
+    </form>
+
+
+
+
+</body>
+</html>
