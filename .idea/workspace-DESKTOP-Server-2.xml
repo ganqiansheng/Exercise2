@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ef6cbdbd-9819-4f26-85a7-72348f7b7745" name="变更" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/designer" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="276N9Qm3Oy0mAaVvaaXBBt7xQw8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Drawing" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\Drawing" />
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\dialogs" />
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\conrtrols" />
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\conrtrols\images\PNG" />
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\designer" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\conrtrols" />
+      <recent name="E:\OneDrive\Pycharm program\PythonExercise\PyQt5\Exercise2\src\conrtrols\images\ICO" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Dragdrop">
+    <configuration name="ColorDialogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dialogs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dialogs/ColorDialogDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Dragdrop" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/drapclip" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/drapclip/Dragdrop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DrawPiont" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Drawing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Drawing/DrawPiont.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="DrawText" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/Drawing" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/Drawing/DrawText.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="FileDialogDemo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Exercise2" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/dialogs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/dialogs/FileDialogDemo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.ColorDialogDemo" />
+      <item itemvalue="Python.Dragdrop" />
+      <item itemvalue="Python.DrawPiont" />
+      <item itemvalue="Python.DrawText" />
+      <item itemvalue="Python.FileDialogDemo" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Dragdrop" />
+        <item itemvalue="Python.DrawPiont" />
+        <item itemvalue="Python.DrawText" />
+        <item itemvalue="Python.FileDialogDemo" />
+        <item itemvalue="Python.ColorDialogDemo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="ef6cbdbd-9819-4f26-85a7-72348f7b7745" name="变更" comment="" />
+      <created>1648636426747</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648636426747</updated>
+      <workItem from="1648636431585" duration="6230000" />
+      <workItem from="1648649497507" duration="636000" />
+      <workItem from="1648688947024" duration="8764000" />
+      <workItem from="1648701167126" duration="1527000" />
+      <workItem from="1648703619958" duration="3243000" />
+      <workItem from="1648707384813" duration="72864000" />
+      <workItem from="1648962644737" duration="914000" />
+      <workItem from="1648963644307" duration="887000" />
+      <workItem from="1648986366460" duration="441000" />
+    </task>
+    <task id="LOCAL-00001" summary="大在">
+      <created>1648701717675</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1648701717675</updated>
+    </task>
+    <task id="LOCAL-00002" summary="大在">
+      <created>1648708749048</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648708749048</updated>
+    </task>
+    <task id="LOCAL-00003" summary="大在">
+      <created>1648728327996</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648728327996</updated>
+    </task>
+    <task id="LOCAL-00004" summary="signalslot">
+      <created>1648730297971</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1648730297971</updated>
+    </task>
+    <task id="LOCAL-00005" summary="demo">
+      <created>1648730323341</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1648730323341</updated>
+    </task>
+    <task id="LOCAL-00006" summary="windowshorizontal">
+      <created>1648730581674</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1648730581674</updated>
+    </task>
+    <task id="LOCAL-00007" summary="RunMainWindowsSignalSlot">
+      <created>1648730770588</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1648730770588</updated>
+    </task>
+    <task id="LOCAL-00008" summary="RunMainSignalSlot">
+      <created>1648731897388</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1648731897389</updated>
+    </task>
+    <task id="LOCAL-00009" summary="RunMainWindowswindowsHorizontal">
+      <created>1648731965403</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1648731965403</updated>
+    </task>
+    <task id="LOCAL-00010" summary="RunMainWindowsVerticalLayout.py">
+      <created>1648732021560</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1648732021560</updated>
+    </task>
+    <task id="LOCAL-00011" summary="大在">
+      <created>1648733217582</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1648733217582</updated>
+    </task>
+    <task id="LOCAL-00012" summary="ICON">
+      <created>1648737697763</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1648737697763</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CenterForm">
+      <created>1648738331883</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738331883</updated>
+    </task>
+    <task id="LOCAL-00014" summary="大在">
+      <created>1648738355103</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738355103</updated>
+    </task>
+    <task id="LOCAL-00015" summary="大在">
+      <created>1648738388026</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1648738388026</updated>
+    </task>
+    <task id="LOCAL-00016" summary="ico">
+      <created>1648781107565</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1648781107565</updated>
+    </task>
+    <task id="LOCAL-00017" summary="QHBoxLayout">
+      <created>1648787092168</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1648787092168</updated>
+    </task>
+    <task id="LOCAL-00018" summary="WidgetGeometry">
+      <created>1648787142699</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1648787142699</updated>
+    </task>
+    <task id="LOCAL-00019" summary="QuitApplication">
+      <created>1648787177792</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1648787177792</updated>
+    </task>
+    <task id="LOCAL-00020" summary="MultiLayout">
+      <created>1648792807324</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1648792807324</updated>
+    </task>
+    <task id="LOCAL-00021" summary="exercise">
+      <created>1648821646127</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1648821646127</updated>
+    </task>
+    <task id="LOCAL-00022" summary="QPushButtonDemo">
+      <created>1648868162466</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1648868162466</updated>
+    </task>
+    <task id="LOCAL-00023" summary="QRadioButtonDemo">
+      <created>1648869457131</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1648869457131</updated>
+    </task>
+    <task id="LOCAL-00024" summary="QRadioButtonDemo">
+      <created>1648871101976</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1648871101976</updated>
+    </task>
+    <task id="LOCAL-00025" summary="QComboBoxDemo.py">
+      <created>1648873491022</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1648873491022</updated>
+    </task>
+    <task id="LOCAL-00026" summary="QRadioButtonDemo">
+      <created>1648873539669</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1648873539669</updated>
+    </task>
+    <task id="LOCAL-00027" summary="QComboBoxDemo.py">
+      <created>1648882089667</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1648882089667</updated>
+    </task>
+    <task id="LOCAL-00028" summary="QSpinBoxDemo.py">
+      <created>1648884493433</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1648884493434</updated>
+    </task>
+    <task id="LOCAL-00029" summary="QSpinBoxDemo.py">
+      <created>1648884667175</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1648884667175</updated>
+    </task>
+    <task id="LOCAL-00030" summary="QSliderDemo.py">
+      <created>1648887140067</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1648887140067</updated>
+    </task>
+    <task id="LOCAL-00031" summary="QSliderDemo.py">
+      <created>1648887296778</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1648887296778</updated>
+    </task>
+    <task id="LOCAL-00032" summary="QDialogDemo.py">
+      <created>1648891255127</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1648891255127</updated>
+    </task>
+    <task id="LOCAL-00033" summary="QMessageBoxDemo.py">
+      <created>1648891276498</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1648891276498</updated>
+    </task>
+    <task id="LOCAL-00034" summary="InputDialogDemo.py">
+      <created>1648893346544</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1648893346544</updated>
+    </task>
+    <task id="LOCAL-00035" summary="FontDialogDemo.py">
+      <created>1648894256190</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1648894256190</updated>
+    </task>
+    <task id="LOCAL-00036" summary="FileDialogDemo.py">
+      <created>1648906089477</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1648906089477</updated>
+    </task>
+    <task id="LOCAL-00037" summary="drawtext">
+      <created>1648907783201</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1648907783201</updated>
+    </task>
+    <task id="LOCAL-00038" summary="drawpoint">
+      <created>1648909764072</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1648909764072</updated>
+    </task>
+    <task id="LOCAL-00039" summary="drawpoint">
+      <created>1648910773607</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1648910773607</updated>
+    </task>
+    <task id="LOCAL-00040" summary="png">
+      <created>1648986704918</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1648986704918</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/designer" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/designer" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="RunMainWindowswindowsHorizontal" />
+    <MESSAGE value="RunMainWindowsVerticalLayout.py" />
+    <MESSAGE value="ICON" />
+    <MESSAGE value="CenterForm" />
+    <MESSAGE value="大在" />
+    <MESSAGE value="ico" />
+    <MESSAGE value="QHBoxLayout" />
+    <MESSAGE value="WidgetGeometry" />
+    <MESSAGE value="QuitApplication" />
+    <MESSAGE value="MultiLayout" />
+    <MESSAGE value="exercise" />
+    <MESSAGE value="QPushButtonDemo" />
+    <MESSAGE value="QRadioButtonDemo" />
+    <MESSAGE value="QComboBoxDemo.py" />
+    <MESSAGE value="QSpinBoxDemo.py" />
+    <MESSAGE value="QSliderDemo.py" />
+    <MESSAGE value="QDialogDemo.py" />
+    <MESSAGE value="QMessageBoxDemo.py" />
+    <MESSAGE value="InputDialogDemo.py" />
+    <MESSAGE value="FontDialogDemo.py" />
+    <MESSAGE value="FileDialogDemo.py" />
+    <MESSAGE value="drawtext" />
+    <MESSAGE value="drawpoint" />
+    <MESSAGE value="dragdrop" />
+    <MESSAGE value="png" />
+    <option name="LAST_COMMIT_MESSAGE" value="png" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/conrtrols/MyWidgetGeometry.py</url>
+          <line>83</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/conrtrols/QLabelDemo.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/conrtrols/QSliderDemo.py</url>
+          <line>41</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/conrtrols/QSliderDemo.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/dialogs/ColorDialogDemo.py</url>
+          <line>42</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/dialogs/FileDialogDemo.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/drapclip/Dragdrop.py</url>
+          <line>14</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="f.read()" language="Python" />
+        <watch expression="f.read()" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWinSignalSlot.coverage" NAME="RunMainWinSignalSlot 覆盖结果" MODIFIED="1648731901905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWinMultiLayout.coverage" NAME="RunMainWinMultiLayout 覆盖结果" MODIFIED="1648792455720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$MyWidgetGeometry.coverage" NAME="MyWidgetGeometry 覆盖结果" MODIFIED="1648794494720" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$PRadioButtonDemo.coverage" NAME="PRadioButtonDemo 覆盖结果" MODIFIED="1648869487506" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$QLabelBuddy.coverage" NAME="QLabelBuddy 覆盖结果" MODIFIED="1648820109764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWindowsVerticalLayout.coverage" NAME="RunMainWindowsVerticalLayout 覆盖结果" MODIFIED="1648708138131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$FirstMainWin.coverage" NAME="FirstMainWin 覆盖结果" MODIFIED="1648737699760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWindowsSignalSlot.coverage" NAME="RunMainWindowsSignalSlot 覆盖结果" MODIFIED="1648730721756" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$QuitApplication.coverage" NAME="QuitApplication 覆盖结果" MODIFIED="1648780941790" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$QLineEditEchoMode.coverage" NAME="QLineEditEchoMode 覆盖结果" MODIFIED="1648821588176" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$QSpinBoxDemo.coverage" NAME="QSpinBoxDemo 覆盖结果" MODIFIED="1648884458604" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols/images" />
+    <SUITE FILE_PATH="coverage/Exercise2$MultiLayout.coverage" NAME="MultiLayout 覆盖结果" MODIFIED="1648789060187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$QLabelDemo.coverage" NAME="QLabelDemo 覆盖结果" MODIFIED="1648806472345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$DrawPiont.coverage" NAME="DrawPiont 覆盖结果" MODIFIED="1648910728054" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Drawing" />
+    <SUITE FILE_PATH="coverage/Exercise2$FileDialogDemo.coverage" NAME="FileDialogDemo 覆盖结果" MODIFIED="1648906037012" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+    <SUITE FILE_PATH="coverage/Exercise2$QComboBoxDemo.coverage" NAME="QComboBoxDemo 覆盖结果" MODIFIED="1648882047672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$InputDialogDemo.coverage" NAME="InputDialogDemo 覆盖结果" MODIFIED="1648893367427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+    <SUITE FILE_PATH="coverage/Exercise2$QPushButtonDemo.coverage" NAME="QPushButtonDemo 覆盖结果" MODIFIED="1648866894584" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$DrawText.coverage" NAME="DrawText 覆盖结果" MODIFIED="1648909080332" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/Drawing" />
+    <SUITE FILE_PATH="coverage/Exercise2$DialogDemo.coverage" NAME="DialogDemo 覆盖结果" MODIFIED="1648889105050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWindowsHorizontalLayout.coverage" NAME="RunMainWindowsHorizontalLayout 覆盖结果" MODIFIED="1648730531955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$CenterForm.coverage" NAME="CenterForm 覆盖结果" MODIFIED="1648738287701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$ColorDialogDemo.coverage" NAME="ColorDialogDemo 覆盖结果" MODIFIED="1648895668653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+    <SUITE FILE_PATH="coverage/Exercise2$Dragdrop.coverage" NAME="Dragdrop 覆盖结果" MODIFIED="1648913786337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/drapclip" />
+    <SUITE FILE_PATH="coverage/Exercise2$RunMainWinMenuToolbar.coverage" NAME="RunMainWinMenuToolbar 覆盖结果" MODIFIED="1648733377626" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/designer" />
+    <SUITE FILE_PATH="coverage/Exercise2$FontDialogDemo.coverage" NAME="FontDialogDemo 覆盖结果" MODIFIED="1648894177086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+    <SUITE FILE_PATH="coverage/Exercise2$QSliderDemo.coverage" NAME="QSliderDemo 覆盖结果" MODIFIED="1648887269797" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$QCheckBoxDemo.coverage" NAME="QCheckBoxDemo 覆盖结果" MODIFIED="1648871054265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/conrtrols" />
+    <SUITE FILE_PATH="coverage/Exercise2$QMessageBoxDemo.coverage" NAME="QMessageBoxDemo 覆盖结果" MODIFIED="1648891207540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/dialogs" />
+  </component>
+</project>
