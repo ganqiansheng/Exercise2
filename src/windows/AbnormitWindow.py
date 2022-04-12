@@ -11,6 +11,7 @@ class AbnormitWindow(QWidget):
         self.setWindowTitle('绘制异形窗口')
         # self.setWindowFlags(Qt.WindowMaximizeButtonHint)
         # self.setWindowState(Qt.WindowFullScreen)
+        self.setWindowFlags(Qt.FramelessWindowHint)
 
         layout=QVBoxLayout()
         btn = QPushButton('关闭窗口',self)
@@ -18,7 +19,7 @@ class AbnormitWindow(QWidget):
         layout.addWidget(btn)
         self.setLayout(layout)
 
-        self.pix =QBitmap('./images/mask.png')
+        self.pix =QBitmap('./images/mask3.png')
         self.resize(self.pix.size())
         self.setMask(self.pix)
 
