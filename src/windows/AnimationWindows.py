@@ -1,4 +1,4 @@
-import sys
+import sys,time
 from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5.QtCore import *
@@ -9,22 +9,34 @@ class AbnormitWindow(QWidget):
     def __init__(self):
         super(AbnormitWindow, self).__init__()
         self.setWindowTitle('绘制异形窗口')
-        # self.setWindowFlags(Qt.WindowMaximizeButtonHint)
-        # self.setWindowState(Qt.WindowFullScreen)
         self.setWindowFlags(Qt.FramelessWindowHint)
+        self.i=1
+        self.mypix()
+        self.timer=QTimer()
+        self.timer.setInterval(500)
+        self.timer.timeout.connect(self.timeChange)
+        self.timer.start()
 
-        self.lastPoint = QPoint()
-        self.endPoint = QPoint()
 
-        # layout=QVBoxLayout()
-        # btn = QPushButton('关闭窗口',self)
-        # btn.clicked.connect(self.close)
-        # layout.addWidget(btn)
-        # self.setLayout(layout)
 
-        self.pix =QBitmap('./images/mask.png')
+        # self.pix =QBitmap('./images/mask.png')
+        # self.resize(self.pix.size())
+        # self.setMask(self.pix)
+
+    def timeChange(self):
+        self.i += 1
+        self.mypix()
+
+    def mypix(self):
+        self.update()
+        if self.i ==5:
+            self.i = 1
+        self.myPic={1:'./images/up.png',2:'./images/right.png',3:'./images/down.png',4:'./images/left.png'}
+        self.pix=QPixmap(self.myPic[self.i])
         self.resize(self.pix.size())
-        self.setMask(self.pix)
+        self.setMask(self.pix.mask())
+        self.dragPosition = None
+
 
     def paintEvent(self, event):
         painter = QPainter(self)
