@@ -10,8 +10,8 @@ class WindowMaxMin(QWidget):
         self.setWindowTitle('设置窗口最大化和最小化')
         self.resize(300, 400)
         self.setWindowFlags(Qt.WindowMaximizeButtonHint
-                            | Qt.WindowCloseButtonHint |
-                            Qt.WindowMinimizeButtonHint)
+                            | Qt.WindowCloseButtonHint
+                            | Qt.WindowMinimizeButtonHint)
 
         layout = QVBoxLayout()
         maxButton1 = QPushButton('窗口最大化1')
