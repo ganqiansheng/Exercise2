@@ -27,47 +27,6 @@ class QSSSelector(QMainWindow):
         self.setStyleSheet(qssStyle)
         print(qssStyle)
 
-        # '
-        # QMainWindow
-        # {
-        #     border - image: url(\'./images/python.jpg\')
-        # }
-        # QToolTip
-        # {
-        #     border: 2px solid rgb(45, 45, 45);
-        # background: white;
-        # font - size: 30
-        # px;
-        # color: red
-        # }
-        # '
-
-        # 'QMainWindow{
-        # border - image: url(\'./images/python.jpg\')
-        # }
-        # QToolTip
-        # {
-        #     border: 2px solid rgb(45, 45, 45);
-        # background: white
-        # font: 30
-        # pt
-        # color: red
-        # }'
-
-        # btn1 = QPushButton('按钮1', self)
-        # btn2 = QPushButton('按钮2', self)
-        # btn2.setProperty('name','btn2')
-        # btn3 = QPushButton('按钮3', self)
-        # btn3.setProperty('name','btn3')
-        # btn4 = QPushButton('按钮4', self)
-        #
-        # layout = QVBoxLayout()
-        # layout.addWidget(btn1)
-        # layout.addWidget(btn2)
-        # layout.addWidget(btn3)
-        # layout.addWidget(btn4)
-        # self.setLayout(layout)
-
 
 if __name__ == '__main__':
     app = QApplication(sys.argv)
