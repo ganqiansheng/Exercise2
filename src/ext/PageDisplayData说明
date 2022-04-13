@@ -1,0 +1,11 @@
+1、生成datagrid类:
+    界面初始化
+    数据库连接初始化
+        #建立三个区域，
+        #   最上面为查询区， layoutQuery
+        #   中间为数据展示区，layoutData
+        #   下面为状态区 layoutStatus
+
+    初始化数据连接model
+
+    初始化tableview数据显示
